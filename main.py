@@ -17,7 +17,7 @@ snake_body.append([int(screen_width/2),int(screen_height/2)*cell_size])
 snake_body.append([int(screen_width/2),int(screen_height/2)*cell_size*2])
 snake_body.append([int(screen_width/2),int(screen_height/2)*cell_size]*3)
 
-background = (255,200,150)
+background = (255,150,150)
 def draw_screen():
   screen.fill(background)
 run = True
